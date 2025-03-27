@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Matsuri Festival</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="location.html" class="nav-link">Location</a>
+    <a href="eventpage.html" class="nav-link">Events</a>
+    <a href="menu.html" class="nav-link">Menu</a>
+    <a href="contactus.html" class="nav-link active">Contact Us</a>
+  </nav>
+</header>
+
+<main>
+  <section class="contact">
+    <h1>Contact Us</h1>
+    <p>Have questions, feedback, or want to participate in the Matsuri Festival? Fill out the form below and we’ll get back to you!</p>
+
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Your full name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="example@email.com" />
+
+      <label for="message">Message / Inquiry:</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help!"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="formResponse" class="form-response"></div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Matsuri Festival. All rights reserved.</p>
+  <p>Contact: info@matsurifestival.com | (123) 456-7890</p>
+</footer>
